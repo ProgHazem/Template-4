@@ -1,0 +1,256 @@
+/*Start Main Rules*/
+body{ }
+/*Start Container*/
+.container{width: 1170px;margin: auto}
+/*End Container*/
+.clearfix{clear: both}
+/*End Main Rules*/
+
+/*Start My Framwork*/
+
+/*End My Framwork*/
+
+/*Start Header*/
+.header {
+    height: 350px;
+    background-color: darkmagenta
+}
+.header .head-left {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    border-right: 2px solid #CCC
+}
+.header .head-left h2 {
+    padding-top: 10%;
+    margin-top: 0;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFF
+}
+.header .head-left h2 span {
+    text-transform: uppercase;
+    font-weight: bold
+}
+.header .head-left h2 span:hover {
+    color: #00BC8A;
+    cursor: pointer
+}
+.header .head-right {
+    width: 45%;
+    float: right;
+    padding-top: 5%;
+    text-align: center
+}
+.header .head-right p {
+    padding-top: 12%;
+    padding-left: 20px;
+    margin-top: 0;
+    line-height: 24px;
+    color: #AAA;
+    font-size: 19px        
+}
+.header .head-right button {
+    text-transform: uppercase;
+    background-color: #00BC8A;
+    border: 0;
+    outline: 0;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*End Header*/
+
+/*Start About*/
+.about {
+    height: 400px;
+    background-color: #FFF;
+    border-bottom: 2px solid #CCC;
+    margin-bottom: 3%
+}
+.about .about-left {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    border-right: 2px solid #CCC
+}
+.about .about-left h2 {
+    font-size: 30px;
+    color: #888
+}
+.about .about-left p {
+    color: #666;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.about .about-left button {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    outline: 0;
+    color: #888;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold
+}
+.about .about-right {
+    width: 45%;
+    float: right;
+    padding-top: 7%;
+    visibility: hidden
+}
+.about .about-right p {
+    color: #666;
+    line-height: 2;
+    font-size: 17px;
+}
+.about .about-right p i {
+    margin-right: 25px;
+    color: #00BC8A
+}
+
+/*End About*/
+
+/*Start Blog*/
+.blog {
+    padding-top: 5%;
+    height: auto;
+    overflow: hidden;
+}
+.blog img {
+    float: left;
+    width: 40%
+}
+.blog img[alt="pic3"] {
+    visibility: hidden;
+}
+.blog .blog-right {
+    float: left;
+    width: 55%;
+    margin-left: 5%    
+}
+.blog .blog-right h2 {
+    font-size: 30px;
+    color: #888
+}
+.blog .blog-right p {
+    color: #666;
+    font-size: 17px;
+    line-height: 2;
+}
+.blog .blog-right button {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    outline: 0;
+    color: #888;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold
+}
+.blog hr {
+    margin-top: 0;
+}
+.blog-id {text-align: center;margin-bottom: 70px;margin-top: 50px}
+.blog-id button {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    outline: 0;
+    color: #888;
+    width: 230px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 2%;
+    font-weight: bold
+}
+/*End Blog*/
+/*Start Contact*/
+.contact {
+    height: auto;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+.contact .contact-left {
+    width: 55%;
+    float: left;
+    border-right: 2px solid #CCC
+}
+.contact .contact-left h2 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #888
+}
+.contact .contact-left p {
+    color: #666;
+    font-size: 17px;
+    line-height: 2;
+    padding-right: 20px
+}
+.contact .contact-left .form input {
+    width: 43%;
+    height: 40px;
+    margin: 2% 2% 2% 0;
+    padding-left: 13px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    outline: 0
+}
+.contact .contact-left .form textarea {
+    width: 90%;
+    height: 150px;
+    margin: 2% 2% 2% 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    outline: 0
+}
+.contact .contact-left .form button {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    outline: 0;
+    color: #888;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold
+}
+.contact .contact-right {
+    width: 35%;
+    float: left;
+    margin-left: 5%
+}
+.contact .contact-right p {color: #666;font-size: 20px;line-height: 2}
+.contact .contact-right p i {margin-right: 20px;color: #00BC8A}
+.contact .contact-right p span {display: block;padding-left: 50px}
+/*End Contact*/
+
+
+/*Start Footer*/
+.footer {
+    background-color: #000;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF
+}
+.footer p {line-height: 100px}
+.footer p span {
+    color: #00BC8A; 
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer
+}
+/*End Footer*/

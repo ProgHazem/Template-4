@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Have Fun" />
+        <title>Hello!</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!--Start Header-->
+        <div class="header">
+            <div class="container">
+                <div class="head-left">
+                    <h2>Welcome to Prism, a free responsive site template by <span>Templated</span></h2>
+                </div>
+                <div class="head-right">
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque.</p>
+                    <button id="headBtn" onmousemove="hoverBtn()" onmouseout="afterHover()">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <!--End Header-->
+        <!--Start About-->
+        <div class="about">
+            <div class="container">
+                <div class="about-left">
+                    <h2>Magna feugiat adipiscing</h2>
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque.</p>
+                    <button onclick="show()" ondblclick="hide()">Learn More</button>
+                </div>
+                <div class="about-right" id="showHidden">
+                    <p><i class="fa fa-check fa-lg"></i>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id</p>
+                    <p><i class="fa fa-check fa-lg"></i>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id</p>
+                    <p><i class="fa fa-check fa-lg"></i>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id</p>
+                    <p><i class="fa fa-check fa-lg"></i>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id</p>
+                    <p><i class="fa fa-check fa-lg"></i>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id</p>
+                </div>
+            </div>
+        </div>
+        <!--End About-->
+        <!--Start Blog-->
+        <div class="blog">
+            <div class="container">
+                <img src="images/pic01.jpg" alt="pic1" onmouseout="timeHover()" />
+                <div class="blog-right">
+                    <h2>Ispum Pharetra tempus</h2>
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque</p>
+                    <button>Details</button>
+                    <p>You Hover on this picture : <span id="pic1" ></span></p>
+                </div>
+                <div class="clearfix"></div>
+                <hr />
+            </div>
+        </div>
+        <div class="blog">
+            <div class="container">
+                <img src="images/pic03.jpg" alt="pic3" id="pic3" />
+                <div class="blog-right">
+                    <h2>Magna consequat feils</h2>
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque</p>
+                    <button onclick="showphoto()" ondblclick="hidephoto()">Details</button>
+                </div>
+                <div class="clearfix"></div>
+                <hr />
+            </div>
+        </div>
+        <div class="blog">
+            <div class="container">
+                <img src="images/pic02.jpg" alt="pic2" onmouseout="timeHover()" />
+                <div class="blog-right">
+                    <h2>Ispum Pharetra tempus</h2>
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque</p>
+                    <button>Details</button>
+                </div>
+                <div class="clearfix"></div>
+                <hr />
+            </div>
+        </div>
+        <div class="blog-id">
+            <div class="container">
+                <button>Ip Sum Magna Tempus</button>
+            </div>
+        </div>
+        <!--End Blog-->
+        <!--Start Contact-->
+        <div class="contact">
+            <div class="container">
+                <div class="contact-left">
+                    <h2>Orci malesuada</h2>
+                    <p>Lorem ipsum dolor sit amet, quo oratio volumus fabellas id, discere deseruisse contentiones id qui, sea ad explicari efficiantur. Choro iriure dignissim vel ad, ullum paulo scaevola ne mel. Has omittantur accommodare ut, eos et iisque tibique recteque</p>
+                    <div class="form">
+                        <form>
+                            <input type="text" placeholder="Name" />
+                            <input type="text" placeholder="Email" />
+                            <textarea placeholder="Message"></textarea>
+                            <button>Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <p id="changeColor"><i class="fa fa-twitter fa-lg" onclick="changeColor()"></i>Twitter.com/hazem-aboelela</p>
+                    <p><i class="fa fa-facebook fa-lg"></i>Facebook.com/hazem-aboelela</p>
+                    <p><i class="fa fa-instagram fa-lg"></i>Instagram.com/hazem-aboelela</p>
+                    <p><i class="fa fa-envelope fa-lg"></i>Envelope.com@hazem-aboelela</p>
+                    <p><i class="fa fa-home fa-lg"></i>1234 Somewhere Road Suite 9832 <span>Nashtivite , In 00000.0000</span></p>
+                </div>
+            </div>
+        </div>
+        <!--End Contct-->
+        <!--Start Footer-->
+        <div class="footer">
+            <div class="container">
+                <p>&copy; All CopyRight Reserved by <span>hazem INC.</span> </p>
+            </div>
+        </div>
+        <!--End Footer-->
+        <script src="js/plugin.js"></script>
+    </body>
+</html>
