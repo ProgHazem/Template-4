@@ -1,13 +1,15 @@
 ******************************************************************
 ========== Simple Site for Prism ==============
 
-Template2 using HTML & CSS
+Template 4
 
 ==> use HTML.
 
 ==> use CSS.
 
 ==> use Fontawesome
+
+==> use Javascript
 
                                                thanks for reading
                                                       Hazem
